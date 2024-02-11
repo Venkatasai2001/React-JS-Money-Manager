@@ -1,0 +1,66 @@
+/* Write your CSS here */
+
+.account-details-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.your-balance-container {
+  width: 200px;
+  height: 75px;
+  background-color: #ecfccb;
+  background-size: cover;
+  border: 2px solid #84cc16;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
+}
+.bal-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+}
+.your-balance-title {
+  font-size: 14px;
+  color: #7e858e;
+  margin-bottom: 0px;
+}
+.amount-css {
+  font-size: 20px;
+  color: #334155;
+  margin-top: 2px;
+}
+.your-income-container {
+  width: 200px;
+  height: 75px;
+  background-color: #cffafe;
+  background-size: cover;
+  border: 2px solid #06b6d4;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
+}
+.your-expenses-container {
+  width: 200px;
+  height: 75px;
+  background-color: #ede9fe;
+  background-size: cover;
+  border: 2px solid #7c3aed;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
+}
